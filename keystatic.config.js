@@ -1,7 +1,10 @@
 import { config, collection, fields } from '@keystatic/core';
 
 export default config({
-  storage: { kind: 'local' },
+  storage: {
+     kind: 'github',
+     repo: 'skylarliux/snoworksx-website',
+   },
   ui: { brand: { name: 'SNOWORKSX Content Manager' } },
 
   collections: {
