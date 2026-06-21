@@ -37,6 +37,12 @@ export default function NavClient() {
 
   useEffect(() => { setOpen(false); setDropdownOpen(false); }, [pathname]);
 
+  /* Explicitly close the mobile menu on any link tap — don't rely solely on the
+     pathname effect above, since /products?cat=x keeps the same pathname and
+     wouldn't otherwise trigger a close (the menu would stay open, masking the
+     page that already navigated underneath it). */
+  const closeMobileMenu = () => { setOpen(false); setMobileProductsOpen(false); };
+
   /* Delay close so mouse can travel from nav link → dropdown without it vanishing */
   const openDropdown  = () => { clearTimeout(closeTimer.current); setDropdownOpen(true); };
   const scheduleClose = () => { closeTimer.current = setTimeout(() => setDropdownOpen(false), 180); };
@@ -113,7 +119,7 @@ export default function NavClient() {
             hasDropdown ? (
               <div key={href}>
                 <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', borderBottom:'1px solid #F0F0F0' }}>
-                  <Link href={href} style={{ ...mobileLinkStyle(isActive(href)), borderBottom:'none', flex:1 }}>{label}</Link>
+                  <Link href={href} onClick={closeMobileMenu} style={{ ...mobileLinkStyle(isActive(href)), borderBottom:'none', flex:1 }}>{label}</Link>
                   <button onClick={() => setMobileProductsOpen(!mobileProductsOpen)} aria-label="Toggle categories"
                     style={{ background:'none', border:'none', cursor:'pointer', padding:'12px 4px', fontSize:12, color:'#888' }}>
                     {mobileProductsOpen ? '▲' : '▼'}
@@ -121,9 +127,9 @@ export default function NavClient() {
                 </div>
                 {mobileProductsOpen && (
                   <div style={{ paddingLeft:12, background:'#FAFAFA' }}>
-                    <Link href="/products" style={mobileSubLinkStyle}>▤ All Products</Link>
+                    <Link href="/products" onClick={closeMobileMenu} style={mobileSubLinkStyle}>▤ All Products</Link>
                     {CATEGORIES.map((c) => (
-                      <Link key={c.id} href={`/products?cat=${c.id}`} style={mobileSubLinkStyle}>
+                      <Link key={c.id} href={`/products?cat=${c.id}`} onClick={closeMobileMenu} style={mobileSubLinkStyle}>
                         <span style={{ display:'inline-flex', alignItems:'center', gap:8 }}>
                           <CatIcon src={c.iconSrc} emoji={c.icon} size={16} />
                           {c.label}
@@ -134,10 +140,10 @@ export default function NavClient() {
                 )}
               </div>
             ) : (
-              <Link key={href} href={href} style={mobileLinkStyle(isActive(href))}>{label}</Link>
+              <Link key={href} href={href} onClick={closeMobileMenu} style={mobileLinkStyle(isActive(href))}>{label}</Link>
             )
           ))}
-          <Link href="/contact" className="btn-red" style={{ display:'block', textAlign:'center', marginTop:16 }}>Request a Quote</Link>
+          <Link href="/contact" onClick={closeMobileMenu} className="btn-red" style={{ display:'block', textAlign:'center', marginTop:16 }}>Request a Quote</Link>
         </div>
       )}
 
