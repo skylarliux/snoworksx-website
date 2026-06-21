@@ -1,0 +1,71 @@
+{
+  "id": "sb-powder-wide",
+  "name": "Deep Powder Directional",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 8,
+  "image": "/images/products/sb-powder-wide.webp",
+  "tagline": "Tapered directional for the deepest days",
+  "description": "A tapered directional powder board with a wide nose, setback stance and rockered tip for maximum float. Designed for soft-snow specialists and powder-focused brand lines.",
+  "flex": 5,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Powder",
+    "Freeride",
+    "Directional",
+    "Tapered"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "Tapered Directional"
+    },
+    {
+      "label": "Riding Style",
+      "value": "Deep Powder / Soft Snow"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Profile",
+      "value": "Directional rocker with camber underfoot"
+    },
+    {
+      "label": "Flex",
+      "value": "5 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Paulownia-dominant lightweight core"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall"
+    },
+    {
+      "label": "Base",
+      "value": "Sintered base"
+    },
+    {
+      "label": "Stance",
+      "value": "Setback directional"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "154 · 158 · 161 · 165"
+    },
+    {
+      "label": "Size 158",
+      "value": "EFF 116cm · 31.5/26.0/29.0mm · 7.0m · Stance 21\" · Setback 1.5\" · 130–220+ lbs / 59–100+ kg"
+    }
+  ],
+  "highlights": [
+    "Tapered shape for effortless float",
+    "Setback stance keeps the nose up",
+    "Lightweight paulownia core",
+    "Rockered tip for soft snow",
+    "Distinctive shape for powder-focused brands"
+  ]
+}

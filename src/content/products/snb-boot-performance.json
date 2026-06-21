@@ -1,0 +1,58 @@
+{
+  "id": "snb-boot-performance",
+  "name": "Performance Lace",
+  "category": "Snowboard Boots",
+  "categoryId": "snowboard-boots",
+  "sortOrder": 1,
+  "image": "/images/products/snb-boot-performance.webp",
+  "tagline": "Stiff dual-zone boot for aggressive riders",
+  "description": "A stiff, responsive snowboard boot with dual-zone cable lacing for independent upper/lower tightening. Built for advanced-to-expert riders who demand precision and heel hold.",
+  "flex": 9,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "Performance",
+    "Stiff",
+    "Freeride"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Freeride / Aggressive All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Advanced to Expert"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "8–9 / 10 (Stiff)"
+    },
+    {
+      "label": "Lacing",
+      "value": "Dual-zone cable/reel"
+    },
+    {
+      "label": "Liner",
+      "value": "Performance heat-moldable (asymmetric tongue, power collar)"
+    },
+    {
+      "label": "Outsole",
+      "value": "Premium Vibram rubber"
+    },
+    {
+      "label": "Last",
+      "value": "Performance D-last"
+    },
+    {
+      "label": "Sizes",
+      "value": "US 7–13 (Men's), half-sizes"
+    }
+  ],
+  "highlights": [
+    "Stiff 8–9 flex for precision",
+    "Dual-zone cable lacing",
+    "Heat-moldable performance liner",
+    "Vibram outsole",
+    "Locked-in heel hold"
+  ]
+}

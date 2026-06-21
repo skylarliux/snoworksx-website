@@ -1,0 +1,65 @@
+{
+  "id": "ski-all-mountain-pro",
+  "name": "All-Mountain Pro",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 2,
+  "image": "/images/products/ski-all-mountain-pro.webp",
+  "tagline": "One-ski quiver with metal-laminate precision",
+  "description": "A do-everything all-mountain ski with a metal laminate construction for a damp, precise, powerful ride. All-terrain rocker handles groomers, crud and the occasional powder day with equal composure.",
+  "flex": null,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "All-Mountain",
+    "Metal Laminate"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Advanced to Expert"
+    },
+    {
+      "label": "Construction",
+      "value": "Metal laminate (Titanal) with hybrid sidewall"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen Microblock"
+    },
+    {
+      "label": "Rocker",
+      "value": "All-Terrain Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "131 / 98 / 119 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "18m @ 177cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "170 · 177 · 184"
+    },
+    {
+      "label": "Binding",
+      "value": "Alpine DIN / GripWalk compatible"
+    },
+    {
+      "label": "Sustainable Option",
+      "value": "Recycled metal alloy laminate available"
+    }
+  ],
+  "highlights": [
+    "Metal laminate for damp, precise performance",
+    "98mm waist — the all-mountain sweet spot",
+    "All-terrain rocker for versatility",
+    "Recycled Titanal option available",
+    "Y-shaped metal layup for power and release"
+  ]
+}

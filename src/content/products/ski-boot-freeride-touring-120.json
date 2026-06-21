@@ -1,0 +1,66 @@
+{
+  "id": "ski-boot-freeride-touring-120",
+  "name": "Freeride Touring 120",
+  "category": "Ski Boots",
+  "categoryId": "ski-boots",
+  "sortOrder": 2,
+  "image": "/images/products/ski-boot-touring.webp",
+  "tagline": "Mid-volume freeride boot with walk mode",
+  "description": "A versatile freeride/touring boot with a 50° walk mechanism, eco-friendly Pebax cuff and GripWalk soles. Climbs efficiently and skis powerfully — the all-round backcountry-capable boot.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Freeride",
+    "Touring",
+    "Walk Mode"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Freeride / Touring"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "120"
+    },
+    {
+      "label": "Last Width",
+      "value": "97–100 mm (Mid Volume)"
+    },
+    {
+      "label": "Shell Material",
+      "value": "TPU with eco-friendly Pebax upper cuff"
+    },
+    {
+      "label": "Walk Mechanism",
+      "value": "50° range of motion"
+    },
+    {
+      "label": "Liner",
+      "value": "Touring heat-moldable (tour notch, lace-up)"
+    },
+    {
+      "label": "Outsole",
+      "value": "GripWalk / Tech-pin compatible"
+    },
+    {
+      "label": "Size Range",
+      "value": "24.5–30.5 Mondopoint"
+    },
+    {
+      "label": "Weight",
+      "value": "~1,950g @ 26.5"
+    }
+  ],
+  "highlights": [
+    "50° walk mode for efficient climbing",
+    "Eco-friendly Pebax upper cuff",
+    "Tech/pin binding compatible",
+    "Heat-moldable touring liner",
+    "Powerful 120 flex on the descent"
+  ]
+}

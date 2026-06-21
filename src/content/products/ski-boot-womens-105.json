@@ -1,0 +1,65 @@
+{
+  "id": "ski-boot-womens-105",
+  "name": "Women's 105",
+  "category": "Ski Boots",
+  "categoryId": "ski-boots",
+  "sortOrder": 5,
+  "image": "/images/products/ski-boot-womens.webp",
+  "tagline": "Women's-specific all-mountain performance boot",
+  "description": "A women's-specific boot with a lower cuff height, narrower heel pocket and anatomic liner. Built for advancing women skiers who want performance and a precise women's fit.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Advanced",
+  "tags": [
+    "Women's",
+    "All-Mountain"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Women's All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Advanced"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "105"
+    },
+    {
+      "label": "Last Width",
+      "value": "97–100 mm (Mid Volume)"
+    },
+    {
+      "label": "Shell Material",
+      "value": "TPU"
+    },
+    {
+      "label": "Women's Features",
+      "value": "Lower cuff height · narrower heel · adjustable cuff"
+    },
+    {
+      "label": "Liner",
+      "value": "Women's anatomic heat-moldable"
+    },
+    {
+      "label": "Outsole",
+      "value": "GripWalk"
+    },
+    {
+      "label": "Size Range",
+      "value": "22.5–27.5 Mondopoint"
+    },
+    {
+      "label": "Weight",
+      "value": "~1,750g @ 24.5"
+    }
+  ],
+  "highlights": [
+    "Women's-specific lower cuff height",
+    "Narrower heel pocket for secure fit",
+    "Women's adjustable cuff",
+    "Anatomic heat-moldable liner",
+    "Performance 105 flex"
+  ]
+}

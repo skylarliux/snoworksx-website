@@ -1,0 +1,57 @@
+{
+  "id": "ski-all-mountain-sport",
+  "name": "All-Mountain Sport",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 4,
+  "image": "/images/products/ski-all-mountain-sport.webp",
+  "tagline": "Approachable all-mountain for progressing skiers",
+  "description": "A forgiving all-mountain ski for progressing intermediates. Lighter aspen core and catch-free rocker make turn initiation easy while maintaining stability on groomers.",
+  "flex": null,
+  "abilityLevel": "Intermediate",
+  "tags": [
+    "All-Mountain",
+    "Intermediate"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen"
+    },
+    {
+      "label": "Rocker",
+      "value": "Catch-Free Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "124 / 88 / 110 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "15m @ 170cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "156 · 163 · 170 · 177"
+    }
+  ],
+  "highlights": [
+    "Catch-free rocker for easy turns",
+    "88mm waist for groomer-focused skiing",
+    "Forgiving, stable flex",
+    "Lightweight aspen core",
+    "Great value for volume programs"
+  ]
+}

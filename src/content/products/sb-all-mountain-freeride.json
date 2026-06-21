@@ -1,0 +1,74 @@
+{
+  "id": "sb-all-mountain-freeride",
+  "name": "All-Mountain Freeride",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 2,
+  "image": "/images/products/sb-all-mountain-freeride.webp",
+  "tagline": "Directional all-mountain freeride for every condition",
+  "description": "A versatile directional board with full camber and a slight early-rise tip. Built for intermediate-to-expert riders who want one board for the whole mountain. Triaxial glass and variable-angle braid deliver lively, composed performance across groomers, trees and off-piste.",
+  "flex": 7,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "All-Mountain",
+    "Freeride",
+    "Directional"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "Directional"
+    },
+    {
+      "label": "Riding Style",
+      "value": "All-Mountain Freeride"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Profile",
+      "value": "Full camber with early-rise tip"
+    },
+    {
+      "label": "Flex",
+      "value": "7 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Multi-species blended core (bamboo / aspen / paulownia)"
+    },
+    {
+      "label": "Construction",
+      "value": "Triaxial glass + variable-angle braid reinforcement"
+    },
+    {
+      "label": "Base",
+      "value": "Wax-infused sintered base"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "146 · 149 · 151 · 151W · 154 · 157W · 159W · 160W · 162 · 163 · 166W"
+    },
+    {
+      "label": "Size 151",
+      "value": "EFF 114cm · 29.4/24.8/28.4mm · 6.0m · Stance 20\" · Setback 0.75\" · 120–190+ lbs / 54–86+ kg"
+    },
+    {
+      "label": "Size 157W",
+      "value": "EFF 117cm · 30.0/25.5/29.0mm · 6.2m · Stance 21\" · Setback 0.75\" · 120–190+ lbs / 54–86+ kg"
+    },
+    {
+      "label": "Size 162",
+      "value": "EFF 123cm · 30.7/25.8/29.8mm · 6.3m · Stance 22\" · Setback 0.75\" · 130–210+ lbs / 59–95+ kg"
+    }
+  ],
+  "highlights": [
+    "One-board quiver for the whole mountain",
+    "Full camber for pop and edge hold",
+    "Wide (W) options for larger boot sizes",
+    "Lively, composed flex pattern",
+    "Custom graphics and private-label packaging"
+  ]
+}

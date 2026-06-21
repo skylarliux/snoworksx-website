@@ -1,0 +1,54 @@
+{
+  "id": "pole-adjustable-touring",
+  "name": "Adjustable Touring",
+  "category": "Poles",
+  "categoryId": "poles",
+  "sortOrder": 4,
+  "image": "/images/products/pole-touring.webp",
+  "tagline": "Adjustable backcountry pole with inclinometer",
+  "description": "An adjustable touring pole with the LockJaw 6000 mechanism, articulating powder basket and built-in bubble inclinometer for backcountry safety. Tool-free swappable baskets convert season to season.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Touring",
+    "Adjustable",
+    "Backcountry"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Touring / Backcountry"
+    },
+    {
+      "label": "Shaft Construction",
+      "value": "Adjustable carbon upper / 7075 aluminium lower"
+    },
+    {
+      "label": "Grip",
+      "value": "Adventure ultra-light EVA foam (extended)"
+    },
+    {
+      "label": "Basket",
+      "value": "95 mm articulating powder basket"
+    },
+    {
+      "label": "Adjustment",
+      "value": "LockJaw 6000 (T6 aluminium + Teflon bushings)"
+    },
+    {
+      "label": "Special Features",
+      "value": "Bubble inclinometer · tool-free swappable baskets"
+    },
+    {
+      "label": "Adjustable Range",
+      "value": "105–145 cm"
+    }
+  ],
+  "highlights": [
+    "LockJaw 6000 — 25% lighter than plastic equivalent",
+    "Articulating 95mm powder basket (50° movement)",
+    "Built-in bubble inclinometer",
+    "Extended EVA foam grip for sidehilling",
+    "Tool-free swappable baskets"
+  ]
+}

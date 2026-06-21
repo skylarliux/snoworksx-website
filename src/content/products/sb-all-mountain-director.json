@@ -1,0 +1,69 @@
+{
+  "id": "sb-all-mountain-director",
+  "name": "All-Mountain Director",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 5,
+  "image": "/images/products/sb-all-mountain-director.webp",
+  "tagline": "Approachable directional all-mountain performance",
+  "description": "A medium-flex directional all-mountain board with combination camber, built for progressing intermediate riders who want stability and forgiveness in one package. The everyday workhorse of an OEM catalogue.",
+  "flex": 5,
+  "abilityLevel": "Intermediate",
+  "tags": [
+    "All-Mountain",
+    "Directional"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "Directional"
+    },
+    {
+      "label": "Riding Style",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate"
+    },
+    {
+      "label": "Profile",
+      "value": "Combination camber"
+    },
+    {
+      "label": "Flex",
+      "value": "5 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen single-species core"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall"
+    },
+    {
+      "label": "Fibreglass",
+      "value": "Biaxial glass"
+    },
+    {
+      "label": "Base",
+      "value": "Extruded base"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "148 · 151 · 154 · 156 · 159 · 162"
+    },
+    {
+      "label": "Size 154",
+      "value": "EFF 116cm · 29.5/25.0/29.5mm · 7.5m · Stance 21\" · Setback 0.50\" · 120–180+ lbs / 54–82+ kg"
+    }
+  ],
+  "highlights": [
+    "Stable, forgiving flex for progression",
+    "Combination camber for confident turns",
+    "Aspen core for proven durability",
+    "Low-maintenance extruded base",
+    "Cost-effective for high-volume programs"
+  ]
+}

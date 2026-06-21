@@ -1,0 +1,57 @@
+{
+  "id": "snb-boot-all-mountain-medium",
+  "name": "All-Mountain Medium",
+  "category": "Snowboard Boots",
+  "categoryId": "snowboard-boots",
+  "sortOrder": 3,
+  "image": "/images/products/snb-boot-am-medium.webp",
+  "tagline": "Versatile medium-flex cable-lacing boot",
+  "description": "A medium-flex all-mountain boot with single-pull cable lacing for fast, even tightening. The versatile everyday boot for the broadest range of riders.",
+  "flex": 5,
+  "abilityLevel": "Beginner to Advanced",
+  "tags": [
+    "All-Mountain",
+    "Cable Lacing"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Advanced"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "5 / 10 (Medium)"
+    },
+    {
+      "label": "Lacing",
+      "value": "Single-pull cable/reel"
+    },
+    {
+      "label": "Liner",
+      "value": "Heat-moldable EVA"
+    },
+    {
+      "label": "Outsole",
+      "value": "Rubber cupsole"
+    },
+    {
+      "label": "Last",
+      "value": "Traditional D-last"
+    },
+    {
+      "label": "Sizes",
+      "value": "US 7–13 (Men's), half-sizes"
+    }
+  ],
+  "highlights": [
+    "Fast single-pull cable lacing",
+    "Versatile medium flex",
+    "Heat-moldable liner",
+    "Comfortable all-day fit",
+    "Great value for volume programs"
+  ]
+}

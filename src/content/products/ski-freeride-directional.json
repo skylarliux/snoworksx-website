@@ -1,0 +1,62 @@
+{
+  "id": "ski-freeride-directional",
+  "name": "Freeride Directional",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 3,
+  "image": "/images/products/ski-freeride.webp",
+  "tagline": "Directional freeride for off-piste exploration",
+  "description": "A directional freeride ski with a tapered tip and natural flax fibre layer for improved tracking and composure in variable terrain. Balanced for skiers spending most of their time off-piste.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Freeride",
+    "Off-Piste",
+    "Flax"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Freeride"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Construction",
+      "value": "Triaxially braided with uni-directional flax layer"
+    },
+    {
+      "label": "Core",
+      "value": "Paulownia + Aspen"
+    },
+    {
+      "label": "Rocker",
+      "value": "Powder Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "136 / 106 / 124 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "20m @ 181cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "174 · 181 · 188"
+    },
+    {
+      "label": "Sustainable Option",
+      "value": "Natural flax fibre + bio-resin"
+    }
+  ],
+  "highlights": [
+    "Natural flax fibre for suspension and tracking",
+    "106mm waist for all-condition float",
+    "Lightweight paulownia/aspen core",
+    "Tapered tip for soft snow",
+    "Sustainability-positioned construction"
+  ]
+}

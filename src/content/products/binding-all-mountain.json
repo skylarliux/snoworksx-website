@@ -1,0 +1,57 @@
+{
+  "id": "binding-all-mountain",
+  "name": "All-Mountain Binding",
+  "category": "Bindings",
+  "categoryId": "bindings",
+  "sortOrder": 2,
+  "image": "/images/products/binding-all-mountain.webp",
+  "tagline": "Versatile medium-flex all-mountain binding",
+  "description": "A medium-flex all-mountain binding with a comfortable, responsive ride for the broadest range of riders. The catalogue cornerstone binding.",
+  "flex": 5,
+  "abilityLevel": "Beginner to Advanced",
+  "tags": [
+    "All-Mountain",
+    "Medium"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Advanced"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "Medium"
+    },
+    {
+      "label": "Highback",
+      "value": "AT polycarbonate"
+    },
+    {
+      "label": "Baseplate",
+      "value": "Composite chassis"
+    },
+    {
+      "label": "Strap System",
+      "value": "Padded ankle + toe strap"
+    },
+    {
+      "label": "Mounting",
+      "value": "4×4 universal + Channel/EST compatible"
+    },
+    {
+      "label": "Sizes",
+      "value": "S · M · L"
+    }
+  ],
+  "highlights": [
+    "Versatile medium flex",
+    "Comfortable padded straps",
+    "AT polycarbonate highback",
+    "4×4 and Channel/EST compatible",
+    "Great value for volume programs"
+  ]
+}

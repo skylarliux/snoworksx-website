@@ -1,0 +1,53 @@
+{
+  "id": "pole-youth-adjustable",
+  "name": "Youth Adjustable",
+  "category": "Poles",
+  "categoryId": "poles",
+  "sortOrder": 5,
+  "image": "/images/products/pole-youth.webp",
+  "tagline": "Adjustable aluminium pole that grows with young skiers",
+  "description": "An adjustable youth pole built from lightweight aluminium that extends as young skiers grow. Easy-grip handle and nesting baskets make it practical for families and programs.",
+  "flex": null,
+  "abilityLevel": "Beginner to Intermediate",
+  "tags": [
+    "Youth",
+    "Adjustable"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Youth"
+    },
+    {
+      "label": "Shaft Construction",
+      "value": "Lightweight aluminium"
+    },
+    {
+      "label": "Shaft Diameter",
+      "value": "14 / 16 mm"
+    },
+    {
+      "label": "Grip",
+      "value": "Junior rubber grip"
+    },
+    {
+      "label": "Basket",
+      "value": "50 mm performance / nesting"
+    },
+    {
+      "label": "Adjustment",
+      "value": "Telescoping"
+    },
+    {
+      "label": "Adjustable Range",
+      "value": "75–105 cm"
+    }
+  ],
+  "highlights": [
+    "Adjustable to grow with the skier",
+    "Lightweight aluminium shaft",
+    "Easy junior grip",
+    "Nesting baskets for storage",
+    "Durable for youth programs"
+  ]
+}

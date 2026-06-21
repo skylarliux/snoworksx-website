@@ -1,0 +1,54 @@
+{
+  "id": "pole-carbon-race",
+  "name": "Carbon Web Race",
+  "category": "Poles",
+  "categoryId": "poles",
+  "sortOrder": 1,
+  "image": "/images/products/pole-carbon.webp",
+  "tagline": "Lightest, stiffest full-carbon pole",
+  "description": "Our premium pole — a Carbon Web shaft with external laminated carbon strands for the lightest, stiffest, most durable construction. Built for racers and performance-focused skiers.",
+  "flex": null,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "Carbon",
+    "Race",
+    "Lightweight"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Race / Performance"
+    },
+    {
+      "label": "Shaft Construction",
+      "value": "Carbon Web (external laminated carbon strands)"
+    },
+    {
+      "label": "Shaft Diameter",
+      "value": "14 mm"
+    },
+    {
+      "label": "Grip",
+      "value": "Performance rubber"
+    },
+    {
+      "label": "Basket",
+      "value": "60 mm all-mountain"
+    },
+    {
+      "label": "Adjustment",
+      "value": "Fixed length"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "105 · 110 · 115 · 120 · 125 · 130 · 135"
+    }
+  ],
+  "highlights": [
+    "Carbon Web — lightest and stiffest construction",
+    "14mm precision shaft",
+    "Performance rubber grip",
+    "Race-ready fixed length",
+    "Custom grip colours and branded baskets"
+  ]
+}

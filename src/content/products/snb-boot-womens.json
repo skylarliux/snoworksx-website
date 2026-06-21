@@ -1,0 +1,57 @@
+{
+  "id": "snb-boot-womens",
+  "name": "Women's Performance",
+  "category": "Snowboard Boots",
+  "categoryId": "snowboard-boots",
+  "sortOrder": 5,
+  "image": "/images/products/snb-boot-womens.webp",
+  "tagline": "Women's-specific medium-flex boot",
+  "description": "A women's-specific snowboard boot with a lower-volume shell, women's calf-shaped liner and lighter components. Built for advancing women riders.",
+  "flex": 6,
+  "abilityLevel": "Intermediate to Advanced",
+  "tags": [
+    "Women's",
+    "All-Mountain"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Women's All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Advanced"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "5–6 / 10 (Medium)"
+    },
+    {
+      "label": "Lacing",
+      "value": "Dual-zone cable/reel"
+    },
+    {
+      "label": "Liner",
+      "value": "Women's anatomic heat-moldable"
+    },
+    {
+      "label": "Outsole",
+      "value": "Vibram rubber"
+    },
+    {
+      "label": "Last",
+      "value": "Women's low-volume last"
+    },
+    {
+      "label": "Sizes",
+      "value": "US 5–11 (Women's), half-sizes"
+    }
+  ],
+  "highlights": [
+    "Women's-specific low-volume shell",
+    "Calf-shaped liner for secure fit",
+    "Lighter components",
+    "Dual-zone cable lacing",
+    "Heat-moldable women's liner"
+  ]
+}

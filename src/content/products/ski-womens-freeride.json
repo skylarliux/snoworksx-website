@@ -1,0 +1,62 @@
+{
+  "id": "ski-womens-freeride",
+  "name": "Women's Freeride",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 7,
+  "image": "/images/products/ski-womens-freeride.webp",
+  "tagline": "Women's-specific freeride with stance-forward geometry",
+  "description": "A women's-specific freeride ski with a corrected flex profile, stance-forward geometry and reduced swing weight. Built for women charging off-piste and powder.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Women's",
+    "Freeride",
+    "Powder"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Women's Freeride"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Construction",
+      "value": "Triaxially braided with flax layer"
+    },
+    {
+      "label": "Core",
+      "value": "Paulownia + Aspen (women's profile)"
+    },
+    {
+      "label": "Rocker",
+      "value": "Powder Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "134 / 102 / 122 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "17m @ 170cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "157 · 164 · 170"
+    },
+    {
+      "label": "Women's Features",
+      "value": "Stance-forward geometry · reduced swing weight"
+    }
+  ],
+  "highlights": [
+    "Women's-specific flex profile per size",
+    "Stance-forward mounting geometry",
+    "Reduced swing weight for control",
+    "102mm waist for float",
+    "Natural flax + bio-resin option"
+  ]
+}

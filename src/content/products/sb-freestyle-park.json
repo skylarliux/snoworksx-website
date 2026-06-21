@@ -1,0 +1,66 @@
+{
+  "id": "sb-freestyle-park",
+  "name": "Freestyle Park Pro",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 7,
+  "image": "/images/products/sb-freestyle-park.webp",
+  "tagline": "True twin built for park, rails and street",
+  "description": "A true-twin park board with a consistent flex pattern tip-to-tail and impact-reinforced zones. Built for park laps, jib lines and street riding with durable construction that takes repeated impact.",
+  "flex": 5,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Freestyle",
+    "Park",
+    "Twin"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "True Twin"
+    },
+    {
+      "label": "Riding Style",
+      "value": "Park & Street"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Profile",
+      "value": "Full camber or flat-to-rocker (to spec)"
+    },
+    {
+      "label": "Flex",
+      "value": "5 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen core"
+    },
+    {
+      "label": "Construction",
+      "value": "Full cap with reinforced impact zones"
+    },
+    {
+      "label": "Base",
+      "value": "Extruded base (durable, easy repair)"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "148 · 151 · 152 · 154 · 156"
+    },
+    {
+      "label": "Size 152",
+      "value": "EFF 113cm · 28.5/25.0/28.5mm · 7.2m · Stance Centred · Setback 0\" · 110–170+ lbs / 50–77+ kg"
+    }
+  ],
+  "highlights": [
+    "Consistent flex pattern tip-to-tail",
+    "Reinforced nose and tail impact zones",
+    "Durable extruded base for rails",
+    "Centred true-twin stance",
+    "Choice of camber profiles"
+  ]
+}

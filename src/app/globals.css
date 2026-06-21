@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black:    #0A0A0A;
+  --color-brand-charcoal: #1C1C1C;
+  --color-brand-red:      #CC1414;
+  --color-brand-red-dark: #A81010;
+  --color-brand-grey:     #F7F7F7;
+  --color-brand-border:   #E5E5E5;
+  --color-brand-muted:    #888888;
+  --color-brand-white:    #FFFFFF;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;padding:0;
+  font-family:'Barlow',sans-serif;
+  font-size:16px;line-height:1.6;
+  color:#0A0A0A;background:#FFFFFF;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,h5{
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:700;line-height:1.05;margin:0;
+}
+p{margin:0} a{text-decoration:none;color:inherit} hr{border:none;border-top:1px solid #E5E5E5;margin:0}
+
+/* ── Layout ── */
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* ── Grid lines hero overlay ── */
+.grid-overlay{
+  position:absolute;inset:0;pointer-events:none;
+  background-image:repeating-linear-gradient(90deg,
+    rgba(0,0,0,0.03) 0,rgba(0,0,0,0.03) 1px,transparent 1px,transparent 80px);
+}
+
+/* ── Labels ── */
+.section-tag{
+  display:inline-block;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:11px;font-weight:700;letter-spacing:0.18em;
+  text-transform:uppercase;color:#CC1414;margin-bottom:14px;
+}
+.section-tag-muted{
+  display:inline-block;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:11px;font-weight:700;letter-spacing:0.18em;
+  text-transform:uppercase;color:#888;margin-bottom:14px;
+}
+.section-tag-white{
+  display:inline-block;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:11px;font-weight:700;letter-spacing:0.18em;
+  text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:14px;
+}
+
+/* ── Red rule ── */
+.red-rule{width:44px;height:3px;background:#CC1414;margin:16px 0}
+
+/* ── Buttons ── */
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#0A0A0A;color:#FFFFFF;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;
+  padding:12px 24px;border:2px solid #0A0A0A;
+  cursor:pointer;transition:background .15s,border-color .15s;text-decoration:none;
+}
+.btn-primary:hover{background:#CC1414;border-color:#CC1414}
+
+.btn-outline{
+  display:inline-flex;align-items:center;gap:8px;
+  background:transparent;color:#0A0A0A;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;
+  padding:11px 24px;border:2px solid #0A0A0A;
+  cursor:pointer;transition:background .15s,color .15s;text-decoration:none;
+}
+.btn-outline:hover{background:#0A0A0A;color:#FFFFFF}
+
+.btn-red{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#CC1414;color:#FFFFFF;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;
+  padding:12px 24px;border:2px solid #CC1414;
+  cursor:pointer;transition:background .15s;text-decoration:none;
+}
+.btn-red:hover{background:#A81010;border-color:#A81010}
+
+.btn-outline-white{
+  display:inline-flex;align-items:center;gap:8px;
+  background:transparent;color:#FFFFFF;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;
+  padding:11px 24px;border:2px solid rgba(255,255,255,0.4);
+  cursor:pointer;transition:background .15s,border-color .15s;text-decoration:none;
+}
+.btn-outline-white:hover{background:rgba(255,255,255,0.1);border-color:#FFFFFF}
+
+/* ── Spec rows ── */
+.spec-row{
+  display:flex;justify-content:space-between;align-items:flex-start;
+  gap:16px;padding:10px 0;border-bottom:1px solid #E5E5E5;font-size:14px;
+}
+.spec-row:last-child{border-bottom:none}
+.spec-label{
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:11px;font-weight:700;letter-spacing:0.1em;
+  text-transform:uppercase;color:#888;min-width:140px;flex-shrink:0;
+}
+.spec-value{font-weight:400;color:#0A0A0A;text-align:right}
+
+/* ── Cert badge ── */
+.cert-badge{
+  display:inline-flex;align-items:center;gap:7px;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;
+  padding:6px 12px;border:1.5px solid #E5E5E5;color:#0A0A0A;background:#FFFFFF;
+}
+.cert-dot{width:6px;height:6px;background:#CC1414;border-radius:50%;flex-shrink:0}
+
+/* ── Highlight tag ── */
+.highlight-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;
+  padding:5px 10px;background:#F7F7F7;color:#0A0A0A;border:1px solid #E5E5E5;
+}
+
+/* ── Brand name (trust bar) ── */
+.brand-name{
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:17px;font-weight:900;letter-spacing:0.06em;
+  text-transform:uppercase;color:#C8C8C8;transition:color .15s;
+}
+.brand-name.active{color:#0A0A0A}
+
+/* ── Stat block ── */
+.stat-block{border-left:3px solid #CC1414;padding-left:16px}
+
+/* ── Process step num ── */
+.step-num{
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:72px;font-weight:900;line-height:1;color:#E5E5E5;
+}
+
+/* ── Sustainability card ── */
+.sus-card{
+  background:#FFFFFF;border:1.5px solid #E5E5E5;padding:20px 18px;
+  transition:border-color .15s;
+}
+.sus-card:hover{border-color:#16a34a}
+
+/* ── Form ── */
+.form-label{
+  font-family:'Barlow Condensed',sans-serif;
+  font-size:11px;font-weight:700;letter-spacing:0.12em;
+  text-transform:uppercase;color:#888;display:block;margin-bottom:6px;
+}
+.form-input,.form-select,.form-textarea{
+  width:100%;padding:11px 14px;
+  border:1.5px solid #E5E5E5;background:#FFFFFF;
+  font-family:'Barlow',sans-serif;font-size:16px;color:#0A0A0A;
+  outline:none;transition:border-color .15s;appearance:none;
+}
+.form-input:focus,.form-select:focus,.form-textarea:focus{border-color:#0A0A0A}
+.form-textarea{resize:vertical;min-height:120px}
+
+/* ── Footer links ── */
+.footer-link{font-size:14px;color:#888;text-decoration:none;transition:color .15s}
+.footer-link:hover{color:#CC1414}
+
+/* ── Card hovers ── */
+.product-card:hover{border-color:#CC1414 !important}
+.blog-card:hover{border-color:#0A0A0A !important}
+
+/* ── Article body (blog) ── */
+.article-body h2{
+  font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:800;
+  text-transform:uppercase;border-bottom:2px solid #CC1414;
+  padding-bottom:8px;margin:36px 0 16px;
+}
+.article-body h3{
+  font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:800;
+  text-transform:uppercase;margin:28px 0 12px;
+}
+.article-body p{font-size:16px;line-height:1.8;color:#3A3A3A;margin-bottom:20px}
+.article-body ul{list-style:none;margin:0 0 20px;padding:0}
+.article-body li{
+  font-size:16px;line-height:1.7;color:#3A3A3A;
+  padding:8px 0 8px 24px;border-bottom:1px solid #F5F5F5;position:relative;
+}
+.article-body li::before{content:'→';position:absolute;left:0;color:#CC1414;font-weight:700}
+.article-body strong{font-weight:600;color:#0A0A0A}
+
+/* ════════════════════════════════════════════
+   MOBILE OPTIMIZATIONS
+   ════════════════════════════════════════════ */
+
+/* Prevent horizontal overflow */
+html { overflow-x: hidden; }
+body { overflow-x: hidden; max-width: 100vw; }
+img, video, iframe { max-width: 100%; }
+
+/* Touch targets: at least 44×44 px for all interactive elements */
+.btn-primary,.btn-outline,.btn-red,.btn-outline-white {
+  min-height: 44px;
+}
+.footer-link { min-height: 28px; display: inline-block; padding: 2px 0; }
+
+/* ── className-based responsive grids (replaces fragile nth-of-type) ── */
+
+/* Stats bar: 4 col → 2×2 */
+@media(max-width:680px) {
+  .stats-bar-grid { grid-template-columns: repeat(2,1fr) !important; }
+}
+
+/* Why SNOWORKSX: 3 col → 1 col */
+@media(max-width:768px) {
+  .why-us-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Manufacturing 2-col outer */
+@media(max-width:768px) {
+  .mfg-outer-grid { grid-template-columns: 1fr !important; }
+}
+/* Manufacturing inner callout 2×2 */
+@media(max-width:480px) {
+  .mfg-inner-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Olympic heritage 2-col */
+@media(max-width:768px) {
+  .olympic-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+}
+
+/* Sustainability brief 4 col → 2 → 1 */
+@media(max-width:768px) {
+  .sus-brief-grid { grid-template-columns: 1fr 1fr !important; }
+}
+@media(max-width:480px) {
+  .sus-brief-grid { grid-template-columns: 1fr !important; }
+}
+
+/* QC dark strip 3-col divider layout → single col */
+@media(max-width:600px) {
+  .qc-strip-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+  .qc-divider { display: none !important; }
+}
+
+/* Product lines grid 4 → 2 → 1 (on homepage) */
+@media(max-width:900px) {
+  .home-product-grid { grid-template-columns: repeat(2,1fr) !important; }
+}
+@media(max-width:500px) {
+  .home-product-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Mobile section padding — reduce large vertical padding */
+@media(max-width:768px) {
+  .section-pad-lg { padding-top: 56px !important; padding-bottom: 56px !important; }
+  .section-pad-xl { padding-top: 64px !important; padding-bottom: 64px !important; }
+}
+
+/* Container padding on small screens */
+@media(max-width:480px) {
+  .container { padding-left: 16px !important; padding-right: 16px !important; }
+}
+
+/* Prevent long words breaking layouts */
+.container h1,.container h2,.container h3,.container p { overflow-wrap: break-word; }
+
+/* ── Additional className-based mobile grids ── */
+
+/* Blog listing cards: 3→1 */
+@media(max-width:768px) { .blog-grid { grid-template-columns: 1fr !important; } }
+
+/* Process QC 2-col */
+@media(max-width:768px) { .process-qc-grid { grid-template-columns: 1fr !important; gap: 40px !important; } }
+
+/* Process technology-link 2-col */
+@media(max-width:768px) { .process-tech-link { flex-direction: column !important; align-items: flex-start !important; } }
+
+/* Contact form sidebar: 1fr 320px → 1fr */
+/* already handled by .contact-grid in existing code */
+
+/* Reduce hero padding on mobile for all dark hero sections */
+@media(max-width:768px) {
+  .page-hero { padding-top: 48px !important; padding-bottom: 36px !important; }
+}

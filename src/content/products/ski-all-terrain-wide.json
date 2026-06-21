@@ -1,0 +1,58 @@
+{
+  "id": "ski-all-terrain-wide",
+  "name": "All-Terrain Wide",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 9,
+  "image": "/images/products/ski-all-terrain-wide.webp",
+  "tagline": "Wide all-terrain ski for variable conditions",
+  "description": "A wide-waisted all-terrain ski that floats in soft snow but holds an edge on firm. The do-everything wide ski for skiers who want one tool for variable conditions.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Advanced",
+  "tags": [
+    "All-Mountain",
+    "Wide",
+    "All-Terrain"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "All-Terrain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Advanced"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall with partial metal"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen Microblock"
+    },
+    {
+      "label": "Rocker",
+      "value": "All-Terrain Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "134 / 106 / 122 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "18m @ 177cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "170 · 177 · 184"
+    }
+  ],
+  "highlights": [
+    "106mm waist for variable conditions",
+    "Partial metal for stability",
+    "All-terrain rocker profile",
+    "Aspen microblock core for damp ride",
+    "Versatile one-ski solution"
+  ]
+}

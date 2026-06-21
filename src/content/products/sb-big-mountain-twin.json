@@ -1,0 +1,74 @@
+{
+  "id": "sb-big-mountain-twin",
+  "name": "Big Mountain Directional Twin",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 4,
+  "image": "/images/products/sb-big-mountain-twin.webp",
+  "tagline": "Freeride brain with a freestyle soul",
+  "description": "A directional twin with combination camber (rocker-camber-rocker) — equally at home dropping big-mountain lines or riding switch through the park. Triaxial glass with a carbon reinforcement web for a damp, powerful, playful ride.",
+  "flex": 6,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Big Mountain",
+    "Freestyle",
+    "Directional Twin"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "Directional Twin"
+    },
+    {
+      "label": "Riding Style",
+      "value": "Big Mountain Freeride / Freestyle"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Profile",
+      "value": "Directional combination camber (rocker-camber-rocker)"
+    },
+    {
+      "label": "Flex",
+      "value": "6 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Multi-species blended core"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid construction with carbon reinforcement web"
+    },
+    {
+      "label": "Fibreglass",
+      "value": "Triaxial glass"
+    },
+    {
+      "label": "Base",
+      "value": "Sintered base"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "144 · 147 · 150 · 153 · 156 · 157W · 159 · 160W · 162 · 164W · 165"
+    },
+    {
+      "label": "Size 153",
+      "value": "EFF 116cm · 29.5/25.2/29.1mm · 5.9m · Stance 21\" · Setback 0.50\" · 120–190+ lbs / 54–86+ kg"
+    },
+    {
+      "label": "Size 159",
+      "value": "EFF 121cm · 30.1/25.5/30.1mm · 6.5m · Stance 22\" · Setback 0.50\" · 130–210+ lbs / 59–95+ kg"
+    }
+  ],
+  "highlights": [
+    "Rides switch as well as it charges forward",
+    "Combination camber for pop and float",
+    "Carbon web for dampening and power",
+    "True all-condition versatility",
+    "Available in wide (W) versions"
+  ]
+}

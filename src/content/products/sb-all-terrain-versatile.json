@@ -1,0 +1,66 @@
+{
+  "id": "sb-all-terrain-versatile",
+  "name": "All-Terrain Versatile",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 9,
+  "image": "/images/products/sb-all-terrain.webp",
+  "tagline": "Do-it-all directional twin for every rider",
+  "description": "A directional-twin all-terrain board with a balanced flex and hybrid profile. The catalogue cornerstone — approachable for progressing riders, capable enough for advanced all-mountain freestyle.",
+  "flex": 5,
+  "abilityLevel": "Beginner to Advanced",
+  "tags": [
+    "All-Mountain",
+    "All-Terrain",
+    "Directional Twin"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "Directional Twin"
+    },
+    {
+      "label": "Riding Style",
+      "value": "All-Terrain"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Advanced"
+    },
+    {
+      "label": "Profile",
+      "value": "Hybrid rocker-camber"
+    },
+    {
+      "label": "Flex",
+      "value": "5 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen core"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall"
+    },
+    {
+      "label": "Base",
+      "value": "Extruded base"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "149 · 152 · 155 · 158 · 161"
+    },
+    {
+      "label": "Size 155",
+      "value": "EFF 117cm · 29.5/25.2/29.0mm · 7.5m · Stance 21\" · Setback 0.50\" · 120–190+ lbs / 54–86+ kg"
+    }
+  ],
+  "highlights": [
+    "Hybrid profile for versatility",
+    "Balanced flex for all riders",
+    "Reliable everyday performer",
+    "Great value for volume programs",
+    "Custom graphics ready"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ski-womens-all-mountain",
+  "name": "Women's All-Mountain",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 8,
+  "image": "/images/products/ski-womens-all-mountain.webp",
+  "tagline": "Versatile women's all-mountain ski",
+  "description": "A women's-specific all-mountain ski with a lighter core and forgiving flex for all-day, all-terrain performance. Stance-forward geometry corrects for biomechanics.",
+  "flex": null,
+  "abilityLevel": "Intermediate",
+  "tags": [
+    "Women's",
+    "All-Mountain"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Women's All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen (women's profile)"
+    },
+    {
+      "label": "Rocker",
+      "value": "All-Terrain Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "124 / 86 / 110 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "14m @ 163cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "149 · 156 · 163"
+    }
+  ],
+  "highlights": [
+    "Women's-specific construction",
+    "86mm all-mountain waist",
+    "Forgiving, stable flex",
+    "Lighter swing weight",
+    "Stance-forward geometry"
+  ]
+}

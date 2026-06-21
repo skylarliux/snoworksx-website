@@ -1,0 +1,66 @@
+{
+  "id": "sb-youth-progression",
+  "name": "Youth Progression",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 10,
+  "image": "/images/products/sb-youth.webp",
+  "tagline": "Soft, catch-free board for young riders",
+  "description": "A soft-flexing twin with a catch-free rockered profile, scaled for youth riders learning the sport. Lightweight construction and forgiving flex make progression easy.",
+  "flex": 3,
+  "abilityLevel": "Beginner to Intermediate",
+  "tags": [
+    "Youth",
+    "Beginner",
+    "Twin"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "True Twin"
+    },
+    {
+      "label": "Riding Style",
+      "value": "Progression"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Intermediate"
+    },
+    {
+      "label": "Profile",
+      "value": "Catch-free rocker"
+    },
+    {
+      "label": "Flex",
+      "value": "3 / 10 (Soft)"
+    },
+    {
+      "label": "Core",
+      "value": "Lightweight youth core"
+    },
+    {
+      "label": "Construction",
+      "value": "Full cap (lightweight)"
+    },
+    {
+      "label": "Base",
+      "value": "Extruded base"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "115 · 125 · 130 · 135 · 140"
+    },
+    {
+      "label": "Size 130",
+      "value": "EFF 96cm · 25.0/22.0/25.0mm · 6.0m · Stance Centred · Setback 0\" · 60–110 lbs / 27–50 kg"
+    }
+  ],
+  "highlights": [
+    "Catch-free rocker for easy learning",
+    "Soft, forgiving flex",
+    "Lightweight for young riders",
+    "Durable build for rentals and youth programs",
+    "Bright custom graphics available"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "binding-youth",
+  "name": "Youth Binding",
+  "category": "Bindings",
+  "categoryId": "bindings",
+  "sortOrder": 4,
+  "image": "/images/products/binding-youth.webp",
+  "tagline": "Soft, easy-adjust binding for young riders",
+  "description": "A soft-flex youth binding with a scaled chassis and easy-adjust straps, built for young riders and youth programs.",
+  "flex": 2,
+  "abilityLevel": "Beginner to Intermediate",
+  "tags": [
+    "Youth",
+    "Soft"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Youth Progression"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Intermediate"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "Soft"
+    },
+    {
+      "label": "Highback",
+      "value": "Scaled polycarbonate"
+    },
+    {
+      "label": "Baseplate",
+      "value": "Youth composite chassis"
+    },
+    {
+      "label": "Strap System",
+      "value": "Easy-adjust ankle + toe"
+    },
+    {
+      "label": "Mounting",
+      "value": "4×4 universal"
+    },
+    {
+      "label": "Sizes",
+      "value": "XS · S"
+    }
+  ],
+  "highlights": [
+    "Soft flex for young riders",
+    "Scaled youth chassis",
+    "Easy-adjust straps",
+    "Durable for youth programs",
+    "Fun custom colours"
+  ]
+}

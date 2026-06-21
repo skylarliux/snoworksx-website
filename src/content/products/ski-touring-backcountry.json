@@ -1,0 +1,62 @@
+{
+  "id": "ski-touring-backcountry",
+  "name": "Touring Backcountry",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 6,
+  "image": "/images/products/ski-touring.webp",
+  "tagline": "Ultra-light carbon construction for the skin track",
+  "description": "A lightweight backcountry touring ski with a balsa/paulownia core and carbon reinforcement for an exceptional weight-to-performance ratio. Tech/pin and GripWalk binding compatible.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Touring",
+    "Backcountry",
+    "Lightweight"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Touring / Backcountry"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Construction",
+      "value": "Carbon-reinforced lightweight build"
+    },
+    {
+      "label": "Core",
+      "value": "Balsa / Paulownia"
+    },
+    {
+      "label": "Rocker",
+      "value": "All-Terrain Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "128 / 95 / 116 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "18m @ 177cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "163 · 170 · 177"
+    },
+    {
+      "label": "Binding",
+      "value": "Tech/Pin + GripWalk compatible"
+    }
+  ],
+  "highlights": [
+    "Ultra-light balsa/paulownia core",
+    "Carbon reinforcement for strength at low weight",
+    "95mm waist balances climb and descent",
+    "Tech/pin binding compatible",
+    "Class-leading weight-to-performance"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sb-all-mountain-twin",
+  "name": "All-Mountain Twin",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 6,
+  "image": "/images/products/sb-all-mountain-twin.webp",
+  "tagline": "Playful twin for all-mountain freestyle",
+  "description": "A true-twin all-mountain board with a centred stance and combination camber. Equally comfortable riding regular or switch, this is the versatile freestyle-leaning board for riders who session the whole mountain.",
+  "flex": 5,
+  "abilityLevel": "Beginner to Advanced",
+  "tags": [
+    "All-Mountain",
+    "Freestyle",
+    "Twin"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "True Twin"
+    },
+    {
+      "label": "Riding Style",
+      "value": "All-Mountain Freestyle"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Advanced"
+    },
+    {
+      "label": "Profile",
+      "value": "Twin combination camber"
+    },
+    {
+      "label": "Flex",
+      "value": "5 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen core"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall"
+    },
+    {
+      "label": "Base",
+      "value": "Extruded base"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "147 · 150 · 153 · 156 · 159"
+    },
+    {
+      "label": "Size 153",
+      "value": "EFF 115cm · 29.0/25.0/29.0mm · 7.4m · Stance Centred · Setback 0\" · 110–180+ lbs / 50–82+ kg"
+    }
+  ],
+  "highlights": [
+    "True-twin shape for switch riding",
+    "Centred stance for park and all-mountain",
+    "Forgiving medium flex",
+    "Great progression board",
+    "Custom graphics ready"
+  ]
+}

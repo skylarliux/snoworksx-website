@@ -1,0 +1,66 @@
+{
+  "id": "ski-big-mountain-expert",
+  "name": "Big Mountain Expert",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 1,
+  "image": "/images/products/ski-big-mountain.webp",
+  "tagline": "Wide freeride weapon for deep snow and big lines",
+  "description": "A wide-waisted big-mountain freeride ski with a powder rocker profile and lightweight aspen microblock core. Built for expert skiers charging steep, deep and committing terrain.",
+  "flex": null,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "Freeride",
+    "Big Mountain",
+    "Powder"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Big Mountain Freeride"
+    },
+    {
+      "label": "Ability",
+      "value": "Advanced to Expert"
+    },
+    {
+      "label": "Construction",
+      "value": "Triaxially braided fibreglass"
+    },
+    {
+      "label": "Core",
+      "value": "Aspen Microblock"
+    },
+    {
+      "label": "Rocker",
+      "value": "Powder Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "140 / 116 / 130 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "19m @ 184cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "177 · 184 · 191 · 198"
+    },
+    {
+      "label": "Binding",
+      "value": "Alpine DIN / GripWalk compatible"
+    },
+    {
+      "label": "Sustainable Option",
+      "value": "Bio-based resin (30% bio-content) available"
+    }
+  ],
+  "highlights": [
+    "Wide 116mm waist for maximum float",
+    "Powder rocker for soft-snow performance",
+    "Lightweight aspen microblock core",
+    "Triaxial braided fibreglass for torsional strength",
+    "Bio-resin construction available"
+  ]
+}

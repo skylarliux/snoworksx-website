@@ -1,0 +1,58 @@
+{
+  "id": "binding-freeride-pro",
+  "name": "Freeride Pro Binding",
+  "category": "Bindings",
+  "categoryId": "bindings",
+  "sortOrder": 1,
+  "image": "/images/products/binding-freeride.webp",
+  "tagline": "Stiff, responsive binding for aggressive riding",
+  "description": "A stiff, responsive snowboard binding with a carbon-reinforced highback and precision chassis. Built for freeride and aggressive all-mountain riders who demand power transfer and response.",
+  "flex": 9,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "Freeride",
+    "Stiff",
+    "Performance"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Freeride / Aggressive All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Advanced to Expert"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "Stiff"
+    },
+    {
+      "label": "Highback",
+      "value": "Carbon-reinforced"
+    },
+    {
+      "label": "Baseplate",
+      "value": "Aluminium-reinforced composite chassis"
+    },
+    {
+      "label": "Strap System",
+      "value": "Asymmetric ankle + capstrap toe"
+    },
+    {
+      "label": "Mounting",
+      "value": "4×4 universal + Channel/EST compatible"
+    },
+    {
+      "label": "Sizes",
+      "value": "M · L · XL"
+    }
+  ],
+  "highlights": [
+    "Carbon-reinforced highback for response",
+    "Aluminium-reinforced chassis",
+    "Precision power transfer",
+    "4×4 and Channel/EST compatible",
+    "Full custom graphics"
+  ]
+}

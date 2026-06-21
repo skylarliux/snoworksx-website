@@ -1,0 +1,58 @@
+{
+  "id": "snb-boot-soft-comfort",
+  "name": "Soft Comfort",
+  "category": "Snowboard Boots",
+  "categoryId": "snowboard-boots",
+  "sortOrder": 4,
+  "image": "/images/products/snb-boot-soft.webp",
+  "tagline": "Soft, forgiving boot for beginners",
+  "description": "A soft, forgiving snowboard boot with traditional lacing and a comfortable out-of-box fit. Built for beginner riders and rental fleets.",
+  "flex": 3,
+  "abilityLevel": "Beginner",
+  "tags": [
+    "Beginner",
+    "Soft",
+    "Comfort"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Beginner / All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "3–4 / 10 (Soft)"
+    },
+    {
+      "label": "Lacing",
+      "value": "Traditional lace"
+    },
+    {
+      "label": "Liner",
+      "value": "Comfort EVA foam"
+    },
+    {
+      "label": "Outsole",
+      "value": "Rubber cupsole"
+    },
+    {
+      "label": "Last",
+      "value": "Comfort last"
+    },
+    {
+      "label": "Sizes",
+      "value": "US 7–13 (Men's), half-sizes"
+    }
+  ],
+  "highlights": [
+    "Soft, forgiving flex for learning",
+    "Traditional easy-to-use lacing",
+    "Comfortable out-of-box fit",
+    "Durable for rental fleets",
+    "Cost-effective construction"
+  ]
+}

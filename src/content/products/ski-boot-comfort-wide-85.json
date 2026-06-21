@@ -1,0 +1,70 @@
+{
+  "id": "ski-boot-comfort-wide-85",
+  "name": "Comfort Wide 85",
+  "category": "Ski Boots",
+  "categoryId": "ski-boots",
+  "sortOrder": 4,
+  "image": "/images/products/ski-boot-comfort.webp",
+  "tagline": "Wide-fit comfort boot with hands-free entry",
+  "description": "A wide-volume comfort boot with hands-free entry and a 50° walk range. Built for beginner-to-intermediate skiers and wider feet who prioritise comfort and ease of use.",
+  "flex": null,
+  "abilityLevel": "Beginner to Intermediate",
+  "tags": [
+    "Comfort",
+    "Wide Fit",
+    "Hands-Free"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Comfort / Recreational"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Intermediate"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "85"
+    },
+    {
+      "label": "Last Width",
+      "value": "100–103 mm (Wide Volume)"
+    },
+    {
+      "label": "Shell Material",
+      "value": "TPU"
+    },
+    {
+      "label": "Entry",
+      "value": "Hands-free entry"
+    },
+    {
+      "label": "Walk Range",
+      "value": "50° range of motion"
+    },
+    {
+      "label": "Liner",
+      "value": "Comfort open-cell EVA foam"
+    },
+    {
+      "label": "Outsole",
+      "value": "GripWalk"
+    },
+    {
+      "label": "Size Range",
+      "value": "24.5–30.5 Mondopoint"
+    },
+    {
+      "label": "Weight",
+      "value": "~1,800g @ 26.5"
+    }
+  ],
+  "highlights": [
+    "Wide 100–103mm comfort fit",
+    "Hands-free entry for easy on/off",
+    "50° walk range for comfort",
+    "Warm open-cell EVA liner",
+    "Approachable 85 flex"
+  ]
+}

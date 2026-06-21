@@ -1,0 +1,79 @@
+{
+  "id": "sb-powder-carver",
+  "name": "Powder Carver Directional",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 3,
+  "image": "/images/products/sb-powder-carver.webp",
+  "tagline": "Volume-shifted directional for carving and powder",
+  "description": "A volume-shifted directional shape — shorter and wider than a traditional board, delivering equal float on less length and faster edge-to-edge response. Hybrid cap construction with carbon power forks for confident carving and deep-snow performance.",
+  "flex": 6,
+  "abilityLevel": "Intermediate to Expert",
+  "tags": [
+    "Powder",
+    "Carving",
+    "Directional",
+    "Volume-Shift"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "Directional (volume-shifted)"
+    },
+    {
+      "label": "Riding Style",
+      "value": "Confident Carving & Powder"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Expert"
+    },
+    {
+      "label": "Profile",
+      "value": "Directional camber with volume-shift shaping"
+    },
+    {
+      "label": "Flex",
+      "value": "6 / 10"
+    },
+    {
+      "label": "Core",
+      "value": "Multi-species blended core"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap construction with carbon power forks"
+    },
+    {
+      "label": "Fibreglass",
+      "value": "Biaxial carbon glass"
+    },
+    {
+      "label": "Base",
+      "value": "Wax-infused sintered base"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "142 · 146 · 150 · 154 · 158 · 162"
+    },
+    {
+      "label": "Size 142",
+      "value": "EFF 104cm · 29.9/25.0/27.9mm · 5.5m · Stance 19\" · Setback 0.75\" · 90–160+ lbs / 41–73+ kg"
+    },
+    {
+      "label": "Size 150",
+      "value": "EFF 111cm · 31.3/26.0/29.3mm · 5.9m · Stance 20\" · Setback 0.75\" · 120–200+ lbs / 54–91+ kg"
+    },
+    {
+      "label": "Size 158",
+      "value": "EFF 118cm · 32.4/26.8/30.4mm · 6.3m · Stance 22\" · Setback 0.75\" · 130–230+ lbs / 59–104+ kg"
+    }
+  ],
+  "highlights": [
+    "Volume-shift shaping: shorter, wider, same float",
+    "Faster edge-to-edge transitions",
+    "Carbon power forks for tail engagement",
+    "Wide platform for confident carving",
+    "Excellent in soft snow and variable terrain"
+  ]
+}

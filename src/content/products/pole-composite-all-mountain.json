@@ -1,0 +1,53 @@
+{
+  "id": "pole-composite-all-mountain",
+  "name": "Composite All-Mountain",
+  "category": "Poles",
+  "categoryId": "poles",
+  "sortOrder": 2,
+  "image": "/images/products/pole-composite.webp",
+  "tagline": "Balanced composite pole for everyday skiing",
+  "description": "A 100% composite pole offering an excellent balance of weight, durability and value. The everyday all-mountain pole for the broadest range of skiers.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Advanced",
+  "tags": [
+    "Composite",
+    "All-Mountain"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Shaft Construction",
+      "value": "100% Composite"
+    },
+    {
+      "label": "Shaft Diameter",
+      "value": "16 mm"
+    },
+    {
+      "label": "Grip",
+      "value": "Dual-injection performance grip"
+    },
+    {
+      "label": "Basket",
+      "value": "60 mm all-mountain"
+    },
+    {
+      "label": "Adjustment",
+      "value": "Fixed length"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "105 · 110 · 115 · 120 · 125 · 130"
+    }
+  ],
+  "highlights": [
+    "Balanced weight, durability and value",
+    "Dual-injection performance grip",
+    "16mm composite shaft",
+    "All-mountain basket",
+    "Custom branding available"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "binding-womens",
+  "name": "Women's Binding",
+  "category": "Bindings",
+  "categoryId": "bindings",
+  "sortOrder": 3,
+  "image": "/images/products/binding-womens.webp",
+  "tagline": "Women's-specific soft-medium binding",
+  "description": "A women's-specific binding with a narrower baseplate, women's ankle-strap geometry and softer flex tuned for women riders.",
+  "flex": 4,
+  "abilityLevel": "Beginner to Advanced",
+  "tags": [
+    "Women's",
+    "All-Mountain"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Women's All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Advanced"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "Soft-Medium"
+    },
+    {
+      "label": "Highback",
+      "value": "Women's-profile polycarbonate"
+    },
+    {
+      "label": "Baseplate",
+      "value": "Narrower women's composite chassis"
+    },
+    {
+      "label": "Strap System",
+      "value": "Women's ankle + toe geometry"
+    },
+    {
+      "label": "Mounting",
+      "value": "4×4 universal + Channel/EST compatible"
+    },
+    {
+      "label": "Sizes",
+      "value": "S · M"
+    }
+  ],
+  "highlights": [
+    "Women's-specific narrower baseplate",
+    "Women's ankle-strap geometry",
+    "Softer tuned flex",
+    "4×4 and Channel/EST compatible",
+    "Full custom graphics"
+  ]
+}

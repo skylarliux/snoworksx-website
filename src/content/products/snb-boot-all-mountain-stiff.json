@@ -1,0 +1,57 @@
+{
+  "id": "snb-boot-all-mountain-stiff",
+  "name": "All-Mountain Stiff",
+  "category": "Snowboard Boots",
+  "categoryId": "snowboard-boots",
+  "sortOrder": 2,
+  "image": "/images/products/snb-boot-am-stiff.webp",
+  "tagline": "Medium-stiff hybrid-lacing all-mountain boot",
+  "description": "A medium-stiff all-mountain boot with hybrid zone lacing combining a cable upper and traditional lower. Responsive yet comfortable for all-day all-mountain riding.",
+  "flex": 7,
+  "abilityLevel": "Intermediate to Advanced",
+  "tags": [
+    "All-Mountain",
+    "Hybrid Lacing"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Advanced"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "6–7 / 10 (Medium-Stiff)"
+    },
+    {
+      "label": "Lacing",
+      "value": "Hybrid zone (cable upper, lace lower)"
+    },
+    {
+      "label": "Liner",
+      "value": "Heat-moldable EVA"
+    },
+    {
+      "label": "Outsole",
+      "value": "Vibram rubber"
+    },
+    {
+      "label": "Last",
+      "value": "Traditional D-last"
+    },
+    {
+      "label": "Sizes",
+      "value": "US 7–13 (Men's), half-sizes"
+    }
+  ],
+  "highlights": [
+    "Hybrid zone lacing for custom fit",
+    "Responsive 6–7 flex",
+    "Heat-moldable liner",
+    "Vibram outsole",
+    "All-day comfort"
+  ]
+}

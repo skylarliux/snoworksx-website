@@ -1,0 +1,57 @@
+{
+  "id": "snb-boot-youth",
+  "name": "Youth Boot",
+  "category": "Snowboard Boots",
+  "categoryId": "snowboard-boots",
+  "sortOrder": 6,
+  "image": "/images/products/snb-boot-youth.webp",
+  "tagline": "Easy-entry soft boot for young riders",
+  "description": "A soft, easy-entry youth snowboard boot with single-pull lacing scaled for young feet. Forgiving flex makes learning easy; durable build suits youth programs.",
+  "flex": 3,
+  "abilityLevel": "Beginner to Intermediate",
+  "tags": [
+    "Youth",
+    "Soft"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Youth Progression"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Intermediate"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "3 / 10 (Soft)"
+    },
+    {
+      "label": "Lacing",
+      "value": "Single-pull cable / Velcro options"
+    },
+    {
+      "label": "Liner",
+      "value": "Comfort EVA"
+    },
+    {
+      "label": "Outsole",
+      "value": "Rubber cupsole"
+    },
+    {
+      "label": "Last",
+      "value": "Youth scaled"
+    },
+    {
+      "label": "Sizes",
+      "value": "US Youth 11K–6"
+    }
+  ],
+  "highlights": [
+    "Easy single-pull lacing for kids",
+    "Soft, forgiving flex",
+    "Scaled youth last",
+    "Durable for youth programs",
+    "Fun custom colours available"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ski-carving-expert",
+  "name": "Carving Expert",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 5,
+  "image": "/images/products/ski-carving.webp",
+  "tagline": "Narrow-waist metal laminate for piste precision",
+  "description": "A precision carving ski with a narrow waist, full metal laminate and speed rocker for hard-snow grip and high-speed stability. Built for skiers who live on the groomers.",
+  "flex": null,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "Carving",
+    "Piste",
+    "Metal Laminate"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Carving / Piste"
+    },
+    {
+      "label": "Ability",
+      "value": "Advanced to Expert"
+    },
+    {
+      "label": "Construction",
+      "value": "Full metal laminate (Titanal), dual sidewall"
+    },
+    {
+      "label": "Core",
+      "value": "Maple + Aspen"
+    },
+    {
+      "label": "Rocker",
+      "value": "Speed Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "122 / 74 / 104 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "13m @ 170cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "156 · 163 · 170 · 177"
+    }
+  ],
+  "highlights": [
+    "Narrow 74mm waist for quick edge-to-edge",
+    "Full metal laminate for grip and stability",
+    "Speed rocker for hard-snow precision",
+    "Energetic maple/aspen core",
+    "Race-inspired construction"
+  ]
+}

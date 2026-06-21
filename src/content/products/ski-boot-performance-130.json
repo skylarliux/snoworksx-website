@@ -1,0 +1,70 @@
+{
+  "id": "ski-boot-performance-130",
+  "name": "Performance 130",
+  "category": "Ski Boots",
+  "categoryId": "ski-boots",
+  "sortOrder": 1,
+  "image": "/images/products/ski-boot-performance.webp",
+  "tagline": "Race-inspired low-volume performance boot",
+  "description": "A stiff, low-volume performance ski boot built for expert and racing-oriented skiers. Variable-thickness TPU shell and a performance heat-moldable liner deliver precision power transfer and a locked-in fit.",
+  "flex": null,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "Performance",
+    "Low Volume",
+    "Race"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "Performance / Race"
+    },
+    {
+      "label": "Ability",
+      "value": "Advanced to Expert"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "130"
+    },
+    {
+      "label": "Last Width",
+      "value": "96–98 mm (Low Volume)"
+    },
+    {
+      "label": "Shell Material",
+      "value": "Variable-thickness TPU"
+    },
+    {
+      "label": "Cuff Material",
+      "value": "Pebax / TPU"
+    },
+    {
+      "label": "Liner",
+      "value": "Performance heat-moldable (asymmetric tongue, power collar)"
+    },
+    {
+      "label": "Outsole",
+      "value": "GripWalk"
+    },
+    {
+      "label": "Cuff Alignment",
+      "value": "Dual-sided ±2°"
+    },
+    {
+      "label": "Size Range",
+      "value": "24.5–30.5 Mondopoint"
+    },
+    {
+      "label": "Weight",
+      "value": "~2,250g @ 26.5"
+    }
+  ],
+  "highlights": [
+    "Stiff 130 flex for expert power transfer",
+    "Low 96–98mm last for precision fit",
+    "Fully heat-moldable shell + liner",
+    "Dual-sided cuff alignment ±2°",
+    "GripWalk outsole standard"
+  ]
+}

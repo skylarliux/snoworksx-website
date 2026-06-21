@@ -1,0 +1,83 @@
+{
+  "id": "sb-freeride-pro",
+  "name": "Freeride Pro Directional",
+  "category": "Snowboards",
+  "categoryId": "snowboards",
+  "sortOrder": 1,
+  "image": "/images/products/sb-freeride-pro.webp",
+  "tagline": "Premium directional freeride — confident and aggressive",
+  "description": "Our most premium freeride construction. A directional board with early-rise tip rocker and aggressive camber underfoot, built for expert riders charging big-mountain lines and deep snow. Variable-angle fibreglass reinforcement and pre-cambered carbon fork inserts deliver precision and energy return.",
+  "flex": 9,
+  "abilityLevel": "Advanced to Expert",
+  "tags": [
+    "Freeride",
+    "Big Mountain",
+    "Powder",
+    "Directional"
+  ],
+  "specs": [
+    {
+      "label": "Board Shape",
+      "value": "Directional"
+    },
+    {
+      "label": "Riding Style",
+      "value": "Confident & Aggressive"
+    },
+    {
+      "label": "Ability",
+      "value": "Advanced to Expert"
+    },
+    {
+      "label": "Profile",
+      "value": "Directional Camber with early-rise tip rocker"
+    },
+    {
+      "label": "Flex",
+      "value": "9 / 10 (Precise)"
+    },
+    {
+      "label": "Core",
+      "value": "Multi-species blended core (bamboo / aspen / paulownia)"
+    },
+    {
+      "label": "Construction",
+      "value": "Hybrid cap/sidewall with sintered P-Tex sidewall profiling"
+    },
+    {
+      "label": "Fibreglass",
+      "value": "Variable-angle reinforcement + pre-cambered carbon fork inserts"
+    },
+    {
+      "label": "Base",
+      "value": "Wax-infused sintered base (premium grade)"
+    },
+    {
+      "label": "Topsheet",
+      "value": "Hydrophobic / anti-stick topsheet"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "154 · 157 · 159W · 160 · 163 · 164W"
+    },
+    {
+      "label": "Size 154",
+      "value": "EFF 109cm · 29.3/24.7/28.7mm · 7.29m · Stance 21\" · Setback 0.75\" · 120–200+ lbs / 54–91+ kg"
+    },
+    {
+      "label": "Size 160",
+      "value": "EFF 122cm · 31.1/26.3/30.5mm · 7.98m · Stance 22\" · Setback 0.75\" · 130–230+ lbs / 59–104+ kg"
+    },
+    {
+      "label": "Size 163",
+      "value": "EFF 124cm · 31.5/26.6/30.9mm · 8.14m · Stance 23\" · Setback 0.75\" · 130–230+ lbs / 59–104+ kg"
+    }
+  ],
+  "highlights": [
+    "Directional camber with early-rise tip for float and precision",
+    "Pre-cambered carbon fork inserts for energy return and snap",
+    "Variable-angle fibreglass for precision-tuned torsion",
+    "Premium wax-infused sintered base for relentless glide",
+    "Available in standard and wide (W) versions"
+  ]
+}

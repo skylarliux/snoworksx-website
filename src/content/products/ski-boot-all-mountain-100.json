@@ -1,0 +1,65 @@
+{
+  "id": "ski-boot-all-mountain-100",
+  "name": "All-Mountain 100",
+  "category": "Ski Boots",
+  "categoryId": "ski-boots",
+  "sortOrder": 3,
+  "image": "/images/products/ski-boot-all-mountain.webp",
+  "tagline": "Versatile mid-volume all-mountain boot",
+  "description": "A medium-flex all-mountain boot with a comfortable mid-volume fit and heat-moldable sport liner. The everyday resort boot for intermediate-to-advanced skiers.",
+  "flex": null,
+  "abilityLevel": "Intermediate to Advanced",
+  "tags": [
+    "All-Mountain",
+    "Mid Volume"
+  ],
+  "specs": [
+    {
+      "label": "Riding Style",
+      "value": "All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Intermediate to Advanced"
+    },
+    {
+      "label": "Flex Rating",
+      "value": "100"
+    },
+    {
+      "label": "Last Width",
+      "value": "97–100 mm (Mid Volume)"
+    },
+    {
+      "label": "Shell Material",
+      "value": "TPU"
+    },
+    {
+      "label": "Cuff Material",
+      "value": "Polypropylene"
+    },
+    {
+      "label": "Liner",
+      "value": "Sport 3D-shaped heat-moldable"
+    },
+    {
+      "label": "Outsole",
+      "value": "GripWalk"
+    },
+    {
+      "label": "Size Range",
+      "value": "24.5–30.5 Mondopoint"
+    },
+    {
+      "label": "Weight",
+      "value": "~2,050g @ 26.5"
+    }
+  ],
+  "highlights": [
+    "Balanced 100 flex for all-mountain use",
+    "Comfortable mid-volume fit",
+    "Heat-moldable sport liner",
+    "GripWalk outsole",
+    "Modular honeycomb bootboard"
+  ]
+}

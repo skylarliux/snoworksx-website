@@ -1,0 +1,61 @@
+{
+  "id": "ski-youth-all-mountain",
+  "name": "Youth All-Mountain Ski",
+  "category": "Skis",
+  "categoryId": "skis",
+  "sortOrder": 10,
+  "image": "/images/products/ski-youth.webp",
+  "tagline": "Lightweight, forgiving ski for young skiers",
+  "description": "A lightweight youth all-mountain ski with a soft flex and catch-free rocker, scaled for young skiers progressing on the mountain. Durable build suits rental and youth programs.",
+  "flex": null,
+  "abilityLevel": "Beginner to Intermediate",
+  "tags": [
+    "Youth",
+    "Beginner"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Youth All-Mountain"
+    },
+    {
+      "label": "Ability",
+      "value": "Beginner to Intermediate"
+    },
+    {
+      "label": "Construction",
+      "value": "Cap construction (lightweight)"
+    },
+    {
+      "label": "Core",
+      "value": "Lightweight composite core"
+    },
+    {
+      "label": "Rocker",
+      "value": "Catch-Free Rocker"
+    },
+    {
+      "label": "Dimensions",
+      "value": "108 / 76 / 98 mm"
+    },
+    {
+      "label": "Radius",
+      "value": "11m @ 140cm"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "110 · 120 · 130 · 140 · 150"
+    },
+    {
+      "label": "Binding",
+      "value": "Youth system binding compatible"
+    }
+  ],
+  "highlights": [
+    "Catch-free rocker for easy learning",
+    "Soft, forgiving flex",
+    "Lightweight for young skiers",
+    "Durable for rental fleets",
+    "Bright custom graphics available"
+  ]
+}

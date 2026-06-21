@@ -1,0 +1,54 @@
+{
+  "id": "pole-aluminium-resort",
+  "name": "Aluminium Resort",
+  "category": "Poles",
+  "categoryId": "poles",
+  "sortOrder": 3,
+  "image": "/images/products/pole-aluminium.webp",
+  "tagline": "Durable aircraft-grade aluminium pole",
+  "description": "A reliable, wallet-friendly pole built from aircraft-grade 7075 aluminium. Seamless, strong and durable — the catalogue staple for resort and rental programs.",
+  "flex": null,
+  "abilityLevel": "Beginner to Advanced",
+  "tags": [
+    "Aluminium",
+    "Resort",
+    "Value"
+  ],
+  "specs": [
+    {
+      "label": "Discipline",
+      "value": "Resort / Recreational"
+    },
+    {
+      "label": "Shaft Construction",
+      "value": "Aircraft-grade 7075 aluminium (seamless)"
+    },
+    {
+      "label": "Shaft Diameter",
+      "value": "16 mm"
+    },
+    {
+      "label": "Grip",
+      "value": "Performance rubber"
+    },
+    {
+      "label": "Basket",
+      "value": "60 mm all-mountain"
+    },
+    {
+      "label": "Adjustment",
+      "value": "Fixed length"
+    },
+    {
+      "label": "Sizes (CM)",
+      "value": "100 · 105 · 110 · 115 · 120 · 125 · 130 · 135"
+    }
+  ],
+  "highlights": [
+    "Aircraft-grade 7075 aluminium",
+    "Seamless, strong, durable",
+    "Performance rubber grip",
+    "Wide size range",
+    "Ideal for resort and rental fleets"
+  ]
+}
