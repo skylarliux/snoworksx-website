@@ -62,7 +62,7 @@ const SOURCING_POINTS = [
   { stat:'60–70%',
     label:'of global winter sports equipment is manufactured in China',
     body:'The supply chain, materials expertise, and production infrastructure for this category are concentrated here. No other geography can match the depth at scale.' },
-  { stat:'7 categories',
+  { stat:'6 categories',
     label:'one factory, one contract, one quality standard',
     body:'Snowboards, skis, boots, bindings and poles from a single certified facility. One NDA, one QC system, one point of contact.' },
   { stat:'AEO certified',
@@ -489,7 +489,7 @@ export default function HomePage() {
             Ready to Build<br />Your Brand?
           </h2>
           <p style={{ fontSize:17, color:'rgba(255,255,255,0.6)', maxWidth:500, margin:'0 auto 36px', lineHeight:1.65 }}>
-            Seven product lines. One certified factory. Trusted by 13 global brands and proven on Olympic podiums.
+            Six product lines. One certified factory. Trusted by 13 global brands and proven on Olympic podiums.
           </p>
           <div style={{ display:'flex', gap:16, justifyContent:'center', flexWrap:'wrap' }}>
             <Link href="/contact" className="btn-red">Request a Quote →</Link>

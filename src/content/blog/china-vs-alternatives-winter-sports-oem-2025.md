@@ -26,7 +26,7 @@ That baseline matters when evaluating alternatives.
 - **Full supply chain.** The materials — aspen and paulownia cores, Titanal alloy laminate, fibreglass braid, sintered base material, boot TPU and Pebax — are all sourced within China or at Chinese-optimised logistics distances. Sourcing the same materials from Vietnam or Czech Republic adds cost and complexity.
 - **Technical depth.** The best Chinese OEM facilities have 10–20 years of production experience on this category and have invested in proprietary R&D on core construction, press profiles, and base preparation.
 - **Certification infrastructure.** ISO 9001, ISO 14001, AEO export certification — the compliance infrastructure that European and North American brands require is mature and well-understood.
-- **Full-category breadth.** Several Chinese facilities can produce all seven product categories (boards, skis, boots, bindings, poles, snowshoes) under one roof. This eliminates multi-vendor complexity.
+- **Full-category breadth.** Several Chinese facilities can produce all six product categories (boards, skis, boots, bindings, poles) under one roof. This eliminates multi-vendor complexity.
 
 **Challenges:**
 - Rising labour costs — though still significantly below European equivalents

@@ -135,7 +135,7 @@ export default function AboutPage() {
             The Equipment and<br />Expertise Behind Every Build
           </h2>
           <p style={{ fontSize:15, color:'#555', lineHeight:1.75, maxWidth:620, marginBottom:52 }}>
-            Our production floor runs six equipment types across seven product lines. Here is what drives quality and consistency on every order.
+            Our production floor runs six equipment types across six product lines. Here is what drives quality and consistency on every order.
           </p>
           <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:2, background:'#E5E5E5' }} className="cap-grid">
             {CAPABILITIES.map(({ title, body }) => (
