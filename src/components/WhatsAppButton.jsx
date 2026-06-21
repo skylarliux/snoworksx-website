@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 /* Update WHATSAPP_NUMBER to your real WhatsApp business number (international format, no +) */
-const WHATSAPP_NUMBER = '8613000000000';
+const WHATSAPP_NUMBER = '8618769153041';
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Hi%20SNOWORKSX%2C%20I%27d%20like%20to%20enquire%20about%20OEM%20manufacturing.`;
 
 export default function WhatsAppButton() {
