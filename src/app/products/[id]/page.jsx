@@ -22,8 +22,29 @@ export default async function ProductDetailPage({ params }) {
   const category = getCategoryById(product.categoryId);
   const related = getProductsByCategoryId(product.categoryId).filter((p) => p.id !== id).slice(0, 4);
 
+  /* Product structured data — helps AI assistants and search engines surface
+     this exact product when answering OEM sourcing questions. */
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    description: product.description,
+    category: product.category,
+    brand: { '@type': 'Brand', name: 'SNOWORKSX' },
+    manufacturer: {
+      '@type': 'Organization',
+      name: 'SNOWORKSX',
+      url: 'https://snoworksx.com',
+    },
+    ...(product.image ? { image: `https://snoworksx.com${product.image}` } : {}),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
       {/* ── BANNER ── */}
       <section style={{ background: '#0A0A0A', color: '#FFFFFF', position: 'relative', overflow: 'hidden' }}>
         <div className="grid-overlay" style={{ opacity: 0.4 }} />

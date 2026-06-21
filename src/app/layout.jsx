@@ -83,8 +83,40 @@ const SOCIAL = [
 ];
 
 export default function RootLayout({ children }) {
+  /* Organization structured data — helps AI assistants (ChatGPT, Claude,
+     Perplexity) and search engines extract accurate facts about SNOWORKSX
+     when answering questions like "best OEM snowboard manufacturer China". */
+  const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'SNOWORKSX',
+    url: 'https://snoworksx.com',
+    logo: 'https://snoworksx.com/images/logo.png',
+    description: 'Purpose-built OEM manufacturer of snowboards, skis, ski boots, snowboard boots, bindings and poles. $75M facility in Weihai, China. 600+ employees. 400,000+ units exported annually. ISO 9001:2015, ISO 14001, ISO 45001, and AEO certified.',
+    foundingDate: '2012',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Weihai',
+      addressRegion: 'Shandong',
+      addressCountry: 'CN',
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      email: 'info@snoworksx.com',
+      contactType: 'Sales',
+    },
+    numberOfEmployees: { '@type': 'QuantitativeValue', value: '600+' },
+    sameAs: [],
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+      </head>
       <body>
         <NavClient />
         <main style={{ paddingTop: 56 }}>{children}</main>

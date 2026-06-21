@@ -459,6 +459,23 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* FAQPage structured data — lets AI assistants extract these Q&A pairs
+          directly when answering buyer questions about SNOWORKSX */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: FAQ_ITEMS.map(({ q, a }) => ({
+              '@type': 'Question',
+              name: q,
+              acceptedAnswer: { '@type': 'Answer', text: a },
+            })),
+          }),
+        }}
+      />
+
       {/* ── FAQ ── */}
       <section style={{ padding:'clamp(48px,7vw,80px) 0', background:'#FFFFFF' }}>
         <div className="container">

@@ -30,16 +30,40 @@ const TARGET_SEASONS = [
 export default function QuoteForm() {
   const [form, setForm] = useState({ name:'', company:'', email:'', phone:'', country:'', product:'', volume:'', brandStage:'', targetSeason:'', message:'' });
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
 
   const handleChange = (e) => setForm((p) => ({ ...p, [e.target.name]: e.target.value }));
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.company) { setError('Please fill in your name, company, and email.'); return; }
     setError('');
-    // TODO: replace with real endpoint → fetch('/api/quote', { method:'POST', body: JSON.stringify(form) })
-    setSubmitted(true);
+    setSubmitting(true);
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          /* Replace with your own Web3Forms Access Key — get one free at https://web3forms.com */
+          access_key: '207eda50-b1dc-43c9-81db-3dcbcd6d7d4a',
+          subject: `New OEM Quote Request — ${form.company}`,
+          from_name: 'SNOWORKSX Website',
+          ...form,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        setError('Something went wrong sending your request. Please try again or email us directly at info@snoworksx.com.');
+      }
+    } catch (err) {
+      setError('Network error — please try again or email us directly at info@snoworksx.com.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   if (submitted) return (
@@ -104,7 +128,9 @@ export default function QuoteForm() {
         </div>
       </div>
       <div style={{ marginTop:28, display:'flex', alignItems:'center', gap:20, flexWrap:'wrap' }}>
-        <button type="submit" className="btn-primary">Send Quote Request →</button>
+        <button type="submit" className="btn-primary" disabled={submitting} style={{ opacity: submitting ? 0.6 : 1, cursor: submitting ? 'not-allowed' : 'pointer' }}>
+          {submitting ? 'Sending…' : 'Send Quote Request →'}
+        </button>
         <p style={{ fontSize:13, color:'#6B6B6B', margin:0, lineHeight:1.5 }}>
           We respond within 1 business day. All enquiries are strictly confidential.
         </p>
