@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 const PRODUCTS = [
   'Snowboards','Skis','Ski Boots','Snowboard Boots',
@@ -32,11 +32,21 @@ export default function QuoteForm() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const botcheckRef = useRef(null); // honeypot — real humans never check this box
 
   const handleChange = (e) => setForm((p) => ({ ...p, [e.target.name]: e.target.value }));
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    /* Honeypot check — if this hidden checkbox got checked, a bot filled the
+       form programmatically. Silently pretend success so the bot doesn't
+       learn to avoid this field next time, but never actually send the email. */
+    if (botcheckRef.current?.checked) {
+      setSubmitted(true);
+      return;
+    }
+
     if (!form.name || !form.email || !form.company) { setError('Please fill in your name, company, and email.'); return; }
     setError('');
     setSubmitting(true);
@@ -47,9 +57,10 @@ export default function QuoteForm() {
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
           /* Replace with your own Web3Forms Access Key — get one free at https://web3forms.com */
-          access_key: '207eda50-b1dc-43c9-81db-3dcbcd6d7d4a',
+          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY',
           subject: `New OEM Quote Request — ${form.company}`,
           from_name: 'SNOWORKSX Website',
+          botcheck: false,
           ...form,
         }),
       });
@@ -82,6 +93,16 @@ export default function QuoteForm() {
 
   return (
     <form onSubmit={handleSubmit} noValidate>
+      {/* Honeypot — invisible to real users, bots that auto-fill every field will trip it */}
+      <input
+        type="checkbox"
+        name="botcheck"
+        ref={botcheckRef}
+        tabIndex={-1}
+        autoComplete="off"
+        style={{ display: 'none' }}
+        aria-hidden="true"
+      />
       {error && (
         <div style={{ background:'#FFF3F3', border:'1px solid #FFCCCC', color:'#CC0000', padding:'12px 16px', marginBottom:24, fontSize:14 }}>
           {error}
