@@ -1,5 +1,10 @@
 'use client';
 import { useState, useRef } from 'react';
+import HCaptcha from '@hcaptcha/react-hcaptcha';
+
+/* Free Web3Forms hCaptcha sitekey — zero-config, no separate hCaptcha account needed.
+   See: https://docs.web3forms.com/getting-started/customizations/spam-protection/hcaptcha */
+const HCAPTCHA_SITEKEY = '50b2fe65-b00b-4b9e-ad62-3ba471098be2';
 
 const PRODUCTS = [
   'Snowboards','Skis','Ski Boots','Snowboard Boots',
@@ -32,9 +37,12 @@ export default function QuoteForm() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const [captchaToken, setCaptchaToken] = useState('');
   const botcheckRef = useRef(null); // honeypot — real humans never check this box
 
   const handleChange = (e) => setForm((p) => ({ ...p, [e.target.name]: e.target.value }));
+  const handleCaptchaVerify = (token) => setCaptchaToken(token);
+  const handleCaptchaExpire = () => setCaptchaToken('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -48,6 +56,7 @@ export default function QuoteForm() {
     }
 
     if (!form.name || !form.email || !form.company) { setError('Please fill in your name, company, and email.'); return; }
+    if (!captchaToken) { setError('Please complete the verification challenge below before submitting.'); return; }
     setError('');
     setSubmitting(true);
 
@@ -61,6 +70,7 @@ export default function QuoteForm() {
           subject: `New OEM Quote Request — ${form.company}`,
           from_name: 'SNOWORKSX Website',
           botcheck: false,
+          'h-captcha-response': captchaToken,
           ...form,
         }),
       });
@@ -69,9 +79,11 @@ export default function QuoteForm() {
         setSubmitted(true);
       } else {
         setError('Something went wrong sending your request. Please try again or email us directly at info@snoworksx.com.');
+        setCaptchaToken(''); // token already consumed — force a fresh challenge on retry
       }
     } catch (err) {
       setError('Network error — please try again or email us directly at info@snoworksx.com.');
+      setCaptchaToken('');
     } finally {
       setSubmitting(false);
     }
@@ -148,7 +160,15 @@ export default function QuoteForm() {
             placeholder="Tell us about your brand, product specifications, target markets, or any other requirements…"/>
         </div>
       </div>
-      <div style={{ marginTop:28, display:'flex', alignItems:'center', gap:20, flexWrap:'wrap' }}>
+      <div style={{ marginTop:24 }}>
+        <HCaptcha
+          sitekey={HCAPTCHA_SITEKEY}
+          reCaptchaCompat={false}
+          onVerify={handleCaptchaVerify}
+          onExpire={handleCaptchaExpire}
+        />
+      </div>
+      <div style={{ marginTop:20, display:'flex', alignItems:'center', gap:20, flexWrap:'wrap' }}>
         <button type="submit" className="btn-primary" disabled={submitting} style={{ opacity: submitting ? 0.6 : 1, cursor: submitting ? 'not-allowed' : 'pointer' }}>
           {submitting ? 'Sending…' : 'Send Quote Request →'}
         </button>
