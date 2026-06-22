@@ -148,7 +148,7 @@ export default async function ProductDetailPage({ params }) {
                 ))}
               </div>
               <p style={{ fontSize: 12.5, color: '#888', marginTop: 14, lineHeight: 1.6, fontStyle: 'italic' }}>
-                Specifications are representative. Dimensions, flex, construction, graphics, and sizing are all customisable to your brand's requirements.
+                Specifications are representative. Dimensions, flex, construction, graphics, and sizing are all customisable to your brand&rsquo;s requirements.
               </p>
             </div>
           </div>

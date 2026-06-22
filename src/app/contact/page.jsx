@@ -43,7 +43,7 @@ export default function ContactPage() {
                 <p style={{ fontSize:14, color:'rgba(255,255,255,0.7)', lineHeight:1.65, marginBottom:14 }}>
                   Many of our current brand partners started with a first order of 100–200 units. MOQ starts at 20 units. We treat new brands with the same rigour as our largest clients.
                 </p>
-                <div style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:11, fontWeight:700, letterSpacing:'.08em', textTransform:'uppercase', color:'rgba(255,255,255,0.35)' }}>Select "New brand" in the Brand Stage field →</div>
+                <div style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:11, fontWeight:700, letterSpacing:'.08em', textTransform:'uppercase', color:'rgba(255,255,255,0.35)' }}>Select &ldquo;New brand&rdquo; in the Brand Stage field →</div>
               </div>
               {/* Trust */}
               <div>

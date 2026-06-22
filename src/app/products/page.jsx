@@ -18,7 +18,7 @@ export default function ProductsPage() {
             Representative<br />Product Range
           </h1>
           <p style={{ fontSize: 17, color: 'rgba(255,255,255,0.6)', maxWidth: 620, lineHeight: 1.65 }}>
-            A selection of products we manufacture across six categories. Filter by category below. Every item shown is a representative example — <strong style={{ color: '#FFFFFF' }}>we build to your exact specification</strong>, and this is only part of what we produce.
+            A selection of products we manufacture across seven categories. Filter by category below. Every item shown is a representative example — <strong style={{ color: '#FFFFFF' }}>we build to your exact specification</strong>, and this is only part of what we produce.
           </p>
         </div>
       </section>
@@ -42,12 +42,12 @@ export default function ProductsPage() {
             </div>
             {/* Women's */}
             <div style={{ background:'#FFFFFF', padding:'28px 24px' }}>
-              <div style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:11, fontWeight:700, letterSpacing:'.14em', textTransform:'uppercase', color:'#CC1414', marginBottom:12 }}>Women's Range</div>
-              <h3 style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:20, fontWeight:800, textTransform:'uppercase', marginBottom:12, lineHeight:1.1 }}>Women's-Specific Engineering Available</h3>
+              <div style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:11, fontWeight:700, letterSpacing:'.14em', textTransform:'uppercase', color:'#CC1414', marginBottom:12 }}>Women&rsquo;s Range</div>
+              <h3 style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:20, fontWeight:800, textTransform:'uppercase', marginBottom:12, lineHeight:1.1 }}>Women&rsquo;s-Specific Engineering Available</h3>
               <p style={{ fontSize:13.5, color:'#555', lineHeight:1.65, marginBottom:20 }}>
-                Women's-specific flex patterns, stance geometry, boot last shapes, and sizing are available across all six product categories. Women's is the fastest-growing segment in winter sports globally.
+                Women&rsquo;s-specific flex patterns, stance geometry, boot last shapes, and sizing are available across all seven product categories. Women&rsquo;s is the fastest-growing segment in winter sports globally.
               </p>
-              <a href="/contact" style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:12, fontWeight:700, letterSpacing:'.08em', textTransform:'uppercase', color:'#CC1414', textDecoration:'none' }}>Enquire about women's →</a>
+              <a href="/contact" style={{ fontFamily:"'Barlow Condensed',sans-serif", fontSize:12, fontWeight:700, letterSpacing:'.08em', textTransform:'uppercase', color:'#CC1414', textDecoration:'none' }}>Enquire about women&rsquo;s →</a>
             </div>
             {/* New brand */}
             <div style={{ background:'#FFFFFF', padding:'28px 24px', borderLeft:'1px solid #E5E5E5' }}>
