@@ -57,7 +57,7 @@ export default function QuoteForm() {
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
           /* Replace with your own Web3Forms Access Key — get one free at https://web3forms.com */
-          access_key: 'YOUR_WEB3FORMS_ACCESS_KEY',
+          access_key: '207eda50-b1dc-43c9-81db-3dcbcd6d7d4a',
           subject: `New OEM Quote Request — ${form.company}`,
           from_name: 'SNOWORKSX Website',
           botcheck: false,
