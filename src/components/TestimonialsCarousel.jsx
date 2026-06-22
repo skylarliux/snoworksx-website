@@ -35,7 +35,7 @@ export default function TestimonialsCarousel({ testimonials }) {
           const initials = name.split(' ').map((w) => w[0]).join('').slice(0, 2).toUpperCase();
           return (
             <div key={`${idx}-${i}`} style={{ background: '#FFFFFF', border: '1px solid #E5E5E5', padding: '28px 24px', display: 'flex', flexDirection: 'column', gap: 20 }}>
-              <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 52, fontWeight: 900, color: '#CC1414', lineHeight: 0.6, userSelect: 'none' }}>"</div>
+              <div style={{ fontFamily: "'Barlow Condensed',sans-serif", fontSize: 52, fontWeight: 900, color: '#CC1414', lineHeight: 0.6, userSelect: 'none' }}>&ldquo;</div>
               <p style={{ fontSize: 14.5, lineHeight: 1.75, color: '#3A3A3A', margin: 0, flex: 1 }}>{quote}</p>
               <div style={{ display: 'flex', alignItems: 'center', gap: 14, borderTop: '1px solid #F0F0F0', paddingTop: 16 }}>
                 <div style={{ width: 44, height: 44, borderRadius: '50%', background: '#0A0A0A', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
