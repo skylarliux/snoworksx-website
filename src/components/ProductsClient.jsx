@@ -11,6 +11,7 @@ export default function ProductsClient({ products, categories, counts }) {
 
   useEffect(() => {
     const cat = searchParams.get('cat');
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional: syncs active filter with the URL's ?cat= param, while selectCategory() below still updates it optimistically on click
     setActive(cat && categories.some((c) => c.id === cat) ? cat : 'all');
   }, [searchParams, categories]);
 

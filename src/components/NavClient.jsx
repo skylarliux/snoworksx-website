@@ -35,6 +35,7 @@ export default function NavClient() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional: closes nav menus whenever the route changes
   useEffect(() => { setOpen(false); setDropdownOpen(false); }, [pathname]);
 
   /* Explicitly close the mobile menu on any link tap — don't rely solely on the
