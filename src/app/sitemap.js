@@ -1,7 +1,7 @@
 import { products } from '../lib/products';
 import { getAllPosts } from '../lib/blog';
 
-const BASE_URL = 'https://snoworksx.com';
+const BASE_URL = 'https://www.snoworksx.com';
 
 export default function sitemap() {
   const now = new Date();

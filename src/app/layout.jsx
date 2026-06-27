@@ -3,6 +3,8 @@ import NavClient from '../components/NavClient';
 import WhatsAppButton from '../components/WhatsAppButton';
 import Link from 'next/link';
 import { EmailIcon, GlobeIcon, PinIcon } from '../components/Icons';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   title: { default: 'SNOWORKSX | OEM Winter Sports Manufacturer — Weihai, China', template: '%s | SNOWORKSX' },
@@ -26,7 +28,7 @@ const FOOTER_NAV = {
   ],
   Contact: [
     { label: 'Request a Quote', href: '/contact'              },
-    { label: 'snoworksx.com',   href: 'https://snoworksx.com', external: true },
+    { label: 'snoworksx.com',   href: 'https://www.snoworksx.com', external: true },
     { label: 'Privacy Policy',  href: '/privacy'              },
     { label: 'Terms & Conditions', href: '/terms'             },
   ],
@@ -90,8 +92,8 @@ export default function RootLayout({ children }) {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'SNOWORKSX',
-    url: 'https://snoworksx.com',
-    logo: 'https://snoworksx.com/images/logo.png',
+    url: 'https://www.snoworksx.com',
+    logo: 'https://www.snoworksx.com/images/logo.png',
     description: 'Purpose-built OEM manufacturer of snowboards, skis, ski boots, snowboard boots, bindings and poles. $75M facility in Weihai, China. 600+ employees. 400,000+ units exported annually. ISO 9001:2015, ISO 14001, ISO 45001, and AEO certified.',
     foundingDate: '2012',
     address: {
@@ -112,6 +114,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="b_OJp3TAKHMm6KDVrV_EbjisdMFCpT2lACkwUzpAW9E" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
@@ -122,6 +125,8 @@ export default function RootLayout({ children }) {
         <main style={{ paddingTop: 56 }}>{children}</main>
         <Footer />
         <WhatsAppButton />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

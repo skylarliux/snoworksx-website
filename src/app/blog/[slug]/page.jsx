@@ -18,8 +18,31 @@ export default async function BlogPostPage({ params }) {
   if (!post) notFound();
   const html = markdownToHtml(post.body);
 
+  /* BlogPosting structured data — helps AI assistants and search engines
+     surface this article directly when answering related questions. */
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: { '@type': 'Organization', name: 'SNOWORKSX' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'SNOWORKSX',
+      logo: { '@type': 'ImageObject', url: 'https://www.snoworksx.com/images/logo.png' },
+    },
+    ...(post.heroImage ? { image: `https://www.snoworksx.com${post.heroImage}` } : {}),
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.snoworksx.com/blog/${slug}` },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <section style={{ background:'#0A0A0A', padding:'72px 0 56px', color:'#FFFFFF' }}>
         <div className="container" style={{ maxWidth:800 }}>
           <nav style={{ fontSize:13, color:'rgba(255,255,255,0.4)', display:'flex', gap:8, marginBottom:24, alignItems:'center' }}>

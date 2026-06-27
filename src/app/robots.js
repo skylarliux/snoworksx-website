@@ -1,4 +1,4 @@
-const BASE_URL = 'https://snoworksx.com';
+const BASE_URL = 'https://www.snoworksx.com';
 
 export default function robots() {
   return {
