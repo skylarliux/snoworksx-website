@@ -5,6 +5,10 @@ import Link from 'next/link';
 import { EmailIcon, GlobeIcon, PinIcon } from '../components/Icons';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import Script from 'next/script';
+
+/* Google Analytics 4 measurement ID */
+const GA_MEASUREMENT_ID = 'G-9GSNB5WS22';
 
 export const metadata = {
   title: { default: 'SNOWORKSX | OEM Winter Sports Manufacturer — Weihai, China', template: '%s | SNOWORKSX' },
@@ -127,6 +131,19 @@ export default function RootLayout({ children }) {
         <WhatsAppButton />
         <Analytics />
         <SpeedInsights />
+        {/* Google Analytics 4 — loaded after page becomes interactive, doesn't block render */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
       </body>
     </html>
   );
